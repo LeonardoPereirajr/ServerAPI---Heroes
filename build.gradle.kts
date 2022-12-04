@@ -40,6 +40,7 @@ dependencies {
 
     implementation("io.insert-koin:koin-ktor:3.2.2")
     implementation("io.insert-koin:koin-core-jvm:3.2.2")
+    implementation("io.ktor:ktor-http-jvm:2.1.3")
     implementation("io.insert-koin:koin-logger-slf4j:3.2.2")
     implementation("io.ktor:ktor-server-default-headers-jvm:2.1.3")
     implementation("io.ktor:ktor-server-default-headers:2.1.3")

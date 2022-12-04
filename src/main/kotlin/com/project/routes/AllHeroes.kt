@@ -12,7 +12,7 @@ import org.koin.ktor.ext.inject
 fun Route.getAllHeroes() {
     val heroRepository : HeroRepository by inject()
 
-    get("boruto//heroes") {
+    get("boruto/heroes") {
         try {
             val page = call.request.queryParameters["page"]?.toInt() ?: 1
             require(page in 1..5)
